@@ -1,0 +1,48 @@
+@include media-md {
+
+  .menu {
+    flex: none;
+  }
+
+  .logo-container {
+    display: block;
+    margin: 2% auto;
+  }
+
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .nav {
+    color: $primary-color;
+    position: relative;
+    visibility: visible;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
+
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+      }
+
+      &__link {
+        color: $secondary-color;
+        font-size: 1rem;
+        font-weight: 600;
+        
+        &:hover {
+          color: $secondary-accent-color;
+        }
+
+      }
+
+    }
+  }
+
+
+}

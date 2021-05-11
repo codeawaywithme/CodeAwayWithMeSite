@@ -1,13 +1,13 @@
-// .menu {
-//   display: flex;
-//   z-index: 1;
-// }
+.menu {
+  display: flex;
+  z-index: 1;
+}
 
-// .logo {
-//   width: 100%;
-//   max-width: 400px;
-//   margin: 5%;
-// }
+.logo {
+  width: 100%;
+  max-width: 400px;
+  margin: 5%;
+}
 
 .menu-btn {
   position: absolute;
@@ -92,22 +92,14 @@
       transform: translateY(0);
     }
 
-    &__item {
-      transform: translateX(100vw);
-      @include transition-ease;
-    }
-
-    &.open {
-      transform: translateX(0);
-    }
-
     &.active > a {
       color: $secondary-color;
     }
-  }
+  
 
   &__link {
     display: inline-block;
+    color: #fff;
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
@@ -116,6 +108,7 @@
 
     &:hover {
       color: $secondary-color;
+    }
     }
   }
  }
@@ -127,3 +120,5 @@
     transition-delay: ($i * 0.1s) + 0.15s;
   }
 }
+
+

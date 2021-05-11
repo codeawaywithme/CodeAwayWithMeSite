@@ -1,11 +1,18 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'responsive';
 
 body {
   color: $primary-color;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.25;
+}
+
+.scrollLock {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
 }
 
 section {

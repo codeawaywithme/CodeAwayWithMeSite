@@ -9,10 +9,11 @@
 .btn {
   background: $secondary-color;
   color: #fff;
-  padding: 1.25% 2%;
+  padding: 1.5% 2%;
   margin-left: 5px;
   border-radius: 5px;
   border: none;
+  font-size: 1.05rem;
 }
 
 .title {
@@ -26,8 +27,12 @@
   width: 100%;
   margin: 0;
 
-  &input {
-    size: 40px;
+  &__input {
+    font-size: 1.25rem;
+    outline: none;
+    border: none;
+    border-radius: 2.5px;
+    padding: 1%;
   }
 
   &__info, &__title {
