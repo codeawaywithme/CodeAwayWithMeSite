@@ -1,0 +1,98 @@
+/* Color Pallette:
+
+teal: 08d9d6
+black: 252a34
+pink:ff2e63
+green: #56C596
+
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+  
+  html {
+      font-size: 16px;
+  }
+  body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  hr {
+      background-color: #08d9d6;
+  }
+
+  .header {
+    margin: 0 auto;
+    color: #56c596;
+    padding: 1rem 1rem .4rem;
+
+  }
+
+  .navbar {
+    max-width:750px;
+    margin: 0 auto;
+  }
+
+  .container-fluid {
+    padding:0;
+  }
+
+  .logo {
+    max-width: 354px;
+    max-height: 192px;
+  }
+
+  .cta {
+    background: #08d9d6;
+    padding: 1rem 0 1.5rem;
+  }
+
+  .cta-content {
+    margin: 0 auto;
+    max-width:750px;
+    width: 80%;
+  }
+
+
+  .cta p{
+      padding-top: 1rem;
+      width: 60%;
+  }
+
+.blog,.codepedia, .about, .hiring, .learn, .social, .construction{ 
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  max-width:750px;
+  width: 80%;
+  }
+
+  .content {
+    width: 65%;
+  }
+
+  .button {
+    background-color: #ff2e63;
+    color: white;
+    border-radius: .5em;
+    text-decoration: none;
+    text-align:center;
+    border-style: solid;
+    border-color: #ff2e63;
+    padding: 0 1.5rem;
+  }
+
+  .button:hover, .button:focus {
+    opacity: .75;
+  }
+
+  .social {
+      font-size: 36px;
+  }
+
+  .social a {
+    color: #56C596;
+  }
+

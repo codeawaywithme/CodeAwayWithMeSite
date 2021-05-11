@@ -1,0 +1,42 @@
+@import 'config';
+@import 'home';
+@import 'menu';
+
+body {
+  color: $primary-color;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.25;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+hr {
+  margin: 2.5% auto;
+  width: 80%;
+}
+main {
+  height: 100%;
+  width: 100%;
+
+  .social-icons {
+
+    padding: 5%;
+
+    a {
+      padding: 0.4rem;
+      @include transition-ease;
+
+      &:hover {
+        color: $secondary-color;
+      }
+
+      &:visited {
+        color: $accent-color;
+      }
+    }
+  }
+}
+

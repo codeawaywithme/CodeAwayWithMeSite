@@ -1,0 +1,59 @@
+.home {
+  height: 100%; 
+  padding-top: 2vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  background: $secondary-color;
+  color: #fff;
+  padding: 1.25% 2%;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  padding: 3% 5%;
+}
+
+.cta {
+  background: $accent-color;
+  width: 100%;
+  margin: 0;
+
+  &input {
+    size: 40px;
+  }
+
+  &__info, &__title {
+    padding: 3% 5%;
+  }
+}
+
+.about {
+  padding: 1.25% 2%;
+
+  &__info {
+    padding: 3% 5%;
+  }
+}
+.codepedia {
+  padding: 1.25% 2%;
+
+  &__info {
+    padding: 3% 5%;
+  }
+}
+.resources {
+  padding: 1.25% 2%;
+
+  &__info {
+    padding: 3% 5%;
+  }
+}
+
